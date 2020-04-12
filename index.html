@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Service</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main">
+        <header class="header">
+            <p class="header__title">Сервис проверки погоды</p>
+            <img class="header__logo" src="images/logo.svg">
+        </header>
+        <div class="input__cont">
+            <form class="form" name="weather">
+                <input class="input input__city" required name="city" placeholder="Введите город" minlength="2" maxlength="32">
+                <p class="error"></p>
+                <button class="button button__submit" name="submit">Подтвердить</button>
+            </form>
+        </div>
+        <div class="results">
+            <h3 class="resutls__title"></h3>
+            <div class="results__found">
+                <img class="result__image" alt="Иконка погоды">
+                <p class="result result__status"></p>
+                <p class="result result__temp"></p>
+                <p class="result result__feeltemp"></p>
+                <p class="result result__pressure"></p>
+                <p class="result result__speed"></p>
+                
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

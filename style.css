@@ -1,0 +1,92 @@
+.main {
+    max-width: 1440px;
+    margin: auto;
+}
+.header {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__logo {
+    width: 100px;
+}
+
+.header__title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.input {
+    font-size: 18px;
+    padding: 7px;
+    margin: 0;
+    border-radius: 5px 5px 0 0;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.button {
+    font-size: 18px;
+    padding: 7px;
+    margin: 0;
+    border-radius: 0 0 5px 5px;
+    border: 1px solid rgb(4, 73, 129);
+    background-color: rgb(4, 73, 129);
+    color: white;
+}
+.error {
+    color: red;
+    font-size: 12px;
+    text-align: center;
+    display: none;
+}
+
+.error_active {
+    display: block;
+}
+
+.input__cont {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.results {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.results_active {
+    display: flex;
+}
+
+.results__title {
+    text-align: center;
+    font-size: 22px;
+}
+
+.results__found {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.result__image {
+    width: 200px;
+}
+
+.result {
+    font-size: 20px;
+    margin: 10px 0 0;
+}
